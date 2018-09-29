@@ -1,6 +1,9 @@
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 2d75ea0a71c6e198e19e1f1f8d913cece92472c8
 # ![Eat-Da-Burger App](public/assets/img/screenshot.jpg)
 
 ### How The App Should Work
