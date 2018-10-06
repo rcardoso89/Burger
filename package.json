@@ -1,26 +1,33 @@
 {
-  "name": "burger",
+  "name": "eat-da-burger",
   "version": "1.0.0",
-  "description": "Restaurant App",
+  "description": "A restaurant app that lets users input the names of burgers they'd like to eat.",
   "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rcardoso89/Burger.git"
+    "url": "git+https://github.com/rcardoso89/Burger"
   },
-  "author": "Rubens C",
+  "keywords": [
+    "Node",
+    "Handlebars",
+    "Express",
+    "MySql"
+  ],
+  "author": "Rubens Cardoso",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rcardoso89/Burger/issues"
+    "url": "https://github.com/rcardoso89/Burger"
   },
-  "homepage": "https://github.com/rcardoso89/Burger#readme",
-  "dependencies": {
-    "body-parser": "^1.17.1",
-    "express": "^4.15.2",
-    "express-handlebars": "^3.0.0",
-    "method-override": "^2.3.8",
-    "mysql": "^2.13.0"
-  }
+  "homepage": "https://github.com/rcardoso89/Burger"
 }
